@@ -114,6 +114,7 @@ int main() {
 			newAnimal = new Cow();
 		}
 		else if (animalname == "1") {
+			cout << "Animal Sounds" << endl;
 			MakeZoo.quack();
 			continue; // 동물 추가 작업을 건너뛰어줘야 한다?
 		}
@@ -124,8 +125,7 @@ int main() {
 		MakeZoo.addAnimal(newAnimal);
 	}
 
-	cout << "Animal Sounds" << endl;
-	MakeZoo.quack();
+	cout << "Good bye" << endl;
 
 	return 0;
 }
